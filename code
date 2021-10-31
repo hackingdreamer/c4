@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<conio.h>
 #include<time.h>
 
 int main()
@@ -11,5 +12,6 @@ int main()
     printf("\nThis program has been writeen at (date and time): %s", ctime(&t));
 
     printf("\n\n\t\t\tCoding is Fun !\n\n\n");
+    return 0;
     
 }
